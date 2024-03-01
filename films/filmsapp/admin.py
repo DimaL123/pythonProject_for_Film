@@ -130,7 +130,7 @@ class FilmImagesAdmin(admin.ModelAdmin):
 
 @admin.register(Rating)
 class RatingAdmin(admin.ModelAdmin):
-    list_display = ("pi", "star")
+    list_display = ("film", "star", "pi")
 
 
 admin.site.register(RatingStar)
